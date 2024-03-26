@@ -126,5 +126,6 @@ def read_ticket(fichero):
 
 from os import listdir
 dir = './pdfs/'
+
 for pdf in listdir(dir):
     read_ticket(dir + pdf)
